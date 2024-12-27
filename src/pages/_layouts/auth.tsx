@@ -1,5 +1,5 @@
-import { Pizza } from "lucide-react";
-import { Outlet } from "react-router-dom";
+import { Pizza } from 'lucide-react'
+import { Outlet } from 'react-router-dom'
 
 export function AuthLayout() {
   return (
@@ -19,5 +19,5 @@ export function AuthLayout() {
         <Outlet />
       </div>
     </div>
-  );
+  )
 }

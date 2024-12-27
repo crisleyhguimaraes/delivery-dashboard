@@ -1,4 +1,5 @@
 import { Building, ChevronDown, LogOut } from "lucide-react";
+
 import { Button } from "./ui/button";
 import {
   DropdownMenu,
@@ -8,6 +9,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "./ui/dropdown-menu";
+
 export function AccountMenu() {
   return (
     <DropdownMenu>
@@ -20,6 +22,7 @@ export function AccountMenu() {
           <ChevronDown className="h-4 w-4" />
         </Button>
       </DropdownMenuTrigger>
+
       <DropdownMenuContent align="end" className="w-56">
         <DropdownMenuLabel className="flex flex-col">
           <span>Crisley Guimarães</span>

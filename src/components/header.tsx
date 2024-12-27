@@ -1,9 +1,9 @@
-import { Home, Pizza, UtensilsCrossed } from "lucide-react";
+import { Home, Pizza, UtensilsCrossed } from 'lucide-react'
 
-import { Separator } from "./ui/separator";
-import { NavLink } from "./nav-link";
-import { ThemeToggle } from "./theme/theme-toggle";
-import { AccountMenu } from "./account-menu";
+import { AccountMenu } from './account-menu'
+import { NavLink } from './nav-link'
+import { ThemeToggle } from './theme/theme-toggle'
+import { Separator } from './ui/separator'
 
 export function Header() {
   return (
@@ -18,7 +18,6 @@ export function Header() {
             <Home className="h-4 w-4" />
             Início
           </NavLink>
-
           <NavLink to="/orders">
             <UtensilsCrossed className="h-4 w-4" />
             Pedidos
@@ -31,5 +30,5 @@ export function Header() {
         </div>
       </div>
     </div>
-  );
+  )
 }

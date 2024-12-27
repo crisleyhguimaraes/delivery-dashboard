@@ -13,13 +13,15 @@ import {
   TableHeader,
   TableRow,
 } from "@/components/ui/table";
+
 export function OrderDetails() {
   return (
     <DialogContent>
       <DialogHeader>
-        <DialogTitle>Pedido: 821e78f7asdhdf128h</DialogTitle>
+        <DialogTitle>Pedido: 1827fy2827d6h</DialogTitle>
         <DialogDescription>Detalhes do pedido</DialogDescription>
       </DialogHeader>
+
       <div className="space-y-6">
         <Table>
           <TableBody>
@@ -37,13 +39,13 @@ export function OrderDetails() {
             <TableRow>
               <TableCell className="text-muted-foreground">Cliente</TableCell>
               <TableCell className="flex justify-end">
-                Crisley H Guimarães
+                Crisley H Guimarães Silva
               </TableCell>
             </TableRow>
             <TableRow>
               <TableCell className="text-muted-foreground">Telefone</TableCell>
               <TableCell className="flex justify-end">
-                (35) 99999-9999
+                (47) 99999-9999
               </TableCell>
             </TableRow>
             <TableRow>
@@ -56,10 +58,11 @@ export function OrderDetails() {
               <TableCell className="text-muted-foreground">
                 Realizado há
               </TableCell>
-              <TableCell className="flex justify-end">há 15 minutos</TableCell>
+              <TableCell className="flex justify-end">há 3 minutos</TableCell>
             </TableRow>
           </TableBody>
         </Table>
+
         <Table>
           <TableHeader>
             <TableRow>

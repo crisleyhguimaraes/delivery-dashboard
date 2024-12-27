@@ -33,7 +33,7 @@ export function OrderTableRow() {
           <span className="font-medium text-muted-foreground">Pendente</span>
         </div>
       </TableCell>
-      <TableCell className="font-medium">Crisley H Guimarães</TableCell>
+      <TableCell className="font-medium">Crisley Henrique</TableCell>
       <TableCell className="font-medium">R$ 99,99</TableCell>
       <TableCell>
         <Button variant="outline" size="xs">

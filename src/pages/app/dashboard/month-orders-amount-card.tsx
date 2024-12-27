@@ -1,6 +1,6 @@
-import { Utensils } from "lucide-react";
+import { Utensils } from 'lucide-react'
 
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 
 export function MonthOrdersAmountCard() {
   return (
@@ -17,5 +17,5 @@ export function MonthOrdersAmountCard() {
         </p>
       </CardContent>
     </Card>
-  );
+  )
 }
